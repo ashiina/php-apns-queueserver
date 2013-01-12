@@ -105,6 +105,9 @@ while ($server->run()) {
 		// Add the message to the message queue
 		$server->add($message);
 		_pushLog(array(date('Y-m-d H:i:s'), $deviceToken, $badgeNum));
+
+		// continue to next loop for effectiveness
+		continue;
 	}
 
 	usleep(500000);
