@@ -19,7 +19,7 @@
  * https://code.google.com/p/apns-php/wiki/CertificateCreation
  * 
  * 3) Start the server:
- * nohup php pushQueueServer.php &
+ * nohup php apnsQueueServer.php &
  * 
  * 4) Add to the push queue with the following command:
  * RPUSH {QUEUE_KEY} {deviceToken}:{badgeNumber}:{text} 
